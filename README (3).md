@@ -8,26 +8,6 @@
 **Source Dataset** : Rakamin Academy <br>
 <br>
 <br>
-
-**Table of Contents**
-- [STAGE 0: Introduction](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#-stage-0-introduction)
-	- [Background](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#background)
-	- [Goal](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#goal)
-    - [Objective](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#objective)
-    - [Business Metric](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#business-metric)
-- [STAGE 1: Exploratory Data Analysis](https://github.com/TeguhFerdian/Predict_Clicked_Ads_Customer_Classification#-stage-1-exploratory-data-analysis)
-	- [Data Overview](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#data-overview)
-	- [Data Quality Assessment](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#data-quality-assesment)
-    - [Data Exploration](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification-exploration)
-- [STAGE 2: Data Pre-processing](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#-stage-2-data-pre-processing)
-- [STAGE 3: Data Modeling and Evaluation](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#-stage-3-data-modeling-and-evaluation)
-	- [Model Experimet](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#model-experiment)
-	- [Evaluation: Confussion Matrix](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification-confusion-matrix)
-	- [Evaluation: Feature Importance](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#evaluation-feature-importance)
-- [STAGE 4: Business Recommendation](https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification#-stage-4-business-recommendation)
-<br>
-<br>
-
 ---
 
 ## 📂 **STAGE 0: Introduction**
@@ -96,7 +76,7 @@ Selain itu, faktor usia juga berperan penting dalam analisis ini. Usia dapat mem
 
 
 <p align="center">
-    <kbd> <img width="900" alt="Presentation1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/6544883a-4112-47d1-9b0a-db0fd503049c">
+    <kbd> <img width="900" alt="Presentation1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/240174404-6544883a-4112-47d1-9b0a-db0fd503049c.png9c">
  </kbd> <br>
     Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads
 </p>
@@ -110,7 +90,7 @@ Sementara itu, melalui analisis Daily Internet Usage, ditemukan bahwa **pengguna
 Sementara dalam analisis usia, ditemukan bahwa **pengguna yang lebih tua memiliki potensi yang lebih besar untuk mengklik iklan**. Hal ini mungkin disebabkan oleh fakta bahwa pengguna internet yang lebih muda lebih terbiasa dengan teknologi dan internet, sehingga mereka mungkin lebih mampu mencari informasi melalui sumber lain selain iklan. Mereka juga cenderung lebih kritis dalam menilai iklan dan lebih memilih untuk menghindari iklan yang terlalu mengganggu atau tidak relevan. Di sisi lain, pengguna yang lebih tua mungkin memiliki ketertarikan yang lebih besar terhadap iklan yang relevan dengan kehidupan sehari-hari mereka, sehingga mereka lebih mungkin untuk mengklik iklan tersebut.
 
 <p align="center">
-    <kbd> <img> <img width="600" alt="korelasi" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/6036e6b9-fe91-465b-bdcd-d6d1de8eb79e"></kbd> <br>
+    <kbd> <img> <img width="600" alt="korelasi" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240177970-6036e6b9-fe91-465b-bdcd-d6d1de8eb79e.png"></kbd> <br>
     Gambar 2 — Plot Korelasi Daily Time Spent on Site dengan Internet Usage terhadap Clicked on Ads
 </p>
 <br>
@@ -126,7 +106,7 @@ Berdasarkan temuan ini, perusahaan dapat mengoptimalkan sistem iklannya dengan m
 Time Analysis of User Clicks on Ads digunakan untuk **menganalisis pola waktu pengguna saat mengklik iklan dengan mengidentifikasi tren dan pola yang dapat memberikan insight**. Dengan analisis ini, perusahaan dapat menentukan jam-jam atau periode tertentu di mana pengguna cenderung lebih aktif dalam mengklik iklan dan mengoptimalkan strategi penempatannya. Hal tersebut dilakukan agar dapat mencapai audiens yang lebih responsif dan meningkatkan peluang untuk mendapatkan klik yang lebih banyak. Selain itu, analisis ini juga dapat membantu perusahaan untuk mengalokasikan anggaran iklan dengan lebih efisien dengan mengarahkan sumber daya ke periode waktu yang paling menguntungkan.
 
 <p align="center">
-    <kbd> <img width="600" alt="Weekday" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/f4805cbd-e118-4087-90b6-286c6cc63e95"></kbd> <br>
+    <kbd> <img width="600" alt="Weekday" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240175193-f4805cbd-e118-4087-90b6-286c6cc63e95.png"></kbd> <br>
     Gambar 3 — Tren Harian Clicked on Ads
 </p>
 <br>
@@ -138,7 +118,7 @@ Namun, **pada hari Rabu terlihat adanya konversi klik iklan yang paling baik**. 
 Selain itu, terdapat data menarik bahwa hari **Selasa dan Sabtu memiliki tingkat lalu lintas yang tinggi dan sekitar 50% pengguna cenderung mengklik iklan**. Ini menunjukkan bahwa pada hari-hari ini, ada peluang yang cukup baik untuk mencapai pengguna dengan iklan yang relevan.
 
 <p align="center">
-    <kbd> <img width="600" alt="hour" src="https://github.com/faizns/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/12b86319-855f-421b-9645-dcfbfe204d24"></kbd> <br>
+    <kbd> <img width="600" alt="hour" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240175372-12b86319-855f-421b-9645-dcfbfe204d24.png"></kbd> <br>
     Gambar 4 — Tren Setiap Jam Clicked on Ads
 </p>
 <br>
@@ -160,7 +140,7 @@ Sementara itu, pada jam 18.00, setelah selesai bekerja, pengguna dapat lebih fok
 Berikut tahapan-tahapan dalam Data Pre-processing yang telah dilakukan.
 
 <p align="center">
-    <kbd> <img width="800" alt="fitur" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/3214a70a-1274-4f53-a4d2-18041c5c301f"> </kbd> <br>
+    <kbd> <img width="800" alt="fitur" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240176636-3214a70a-1274-4f53-a4d2-18041c5c301f.png"> </kbd> <br>
     Gambar 5 — Tahap Data Pre-processing
 </p>
 <br>
@@ -168,7 +148,7 @@ Berikut tahapan-tahapan dalam Data Pre-processing yang telah dilakukan.
 Fitur yang digunakan untuk model.
 
 <p align="center">
-    <kbd> <img width="400" alt="fitur" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/b05971a5-e16e-4004-8173-7ff5469d7148"></kbd> <br>
+    <kbd> <img width="400" alt="fitur" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240175786-b05971a5-e16e-4004-8173-7ff5469d7148.png"></kbd> <br>
     Gambar 6 — Fitur yang digunakan untuk Model
 </p>
 
@@ -185,12 +165,12 @@ Dalam kedua eksperimen ini, matriks akurasi digunakan sebagai metrik evaluasi. M
 
 <p align="center">
     Tabel 3 — Hasil Eksperimen Pertama (Tanpa Standardization) <br>
-    <kbd><img width="500" alt="ex1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/bddc03e7-cb76-49ad-8acf-2f401f20ab32"></kbd> <br>
+    <kbd><img width="500" alt="ex1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240336899-bddc03e7-cb76-49ad-8acf-2f401f20ab32.png"></kbd> <br>
 </p>
 
 <p align="center">
     Tabel 4 — Hasil Eksperimen Kedua (Standardization) <br>
-    <kbd> <img width="500" alt="ex2" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/e31f61bc-3cda-48cd-a556-25bb7cba4a3d"></kbd> <br>
+    <kbd> <img width="500" alt="ex2" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240337085-e31f61bc-3cda-48cd-a556-25bb7cba4a3d.png"></kbd> <br>
 </p>
 <br>
 
@@ -202,7 +182,7 @@ Selain itu algoritma seperti Random Forest, XGBoost, Gradient Boosting, dan LGBM
 ### **Evaluation: Confusion Matrix**
 
 <p align="center">
-    <kbd><img width="500" alt="CM" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/c64e7a95-78c7-401d-9404-345ed06afbac"></kbd> <br>
+    <kbd><img width="500" alt="CM" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240338262-c64e7a95-78c7-401d-9404-345ed06afbac.png"></kbd> <br>
     Gambar 7 — Confussion Matrix Random Forest
 </p>
 
@@ -211,7 +191,7 @@ Berdasarkan model random forest, performa model secara mendetail dievaluasi meng
 
 #### **Evaluation: Feature Importance**
 <p align="center">
-    <kbd> <img width="700" alt="SHAP" src="https://TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/assets/115857221/bef0d0a4-27eb-4dc9-aabd-d2cc8e05d8d7"> </kbd> <br>
+    <kbd> <img width="700" alt="SHAP" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/output.png"> </kbd> <br>
     Gambar 8 — Feature Importance Random Forest
 </p>
 
