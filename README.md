@@ -76,7 +76,7 @@ Selain itu, faktor usia juga berperan penting dalam analisis ini. Usia dapat mem
 
 
 <p align="center">
-    <kbd> <img width="900" alt="Presentation1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/240174404-6544883a-4112-47d1-9b0a-db0fd503049c.png9c">
+    <kbd> <img width="900" alt="Presentation1" src="https://github.com/TeguhFerdian/Predict_Customer_Clicked_Ads_Classification/blob/main/240174404-6544883a-4112-47d1-9b0a-db0fd503049c.png">
  </kbd> <br>
     Gambar 1 — Plot Distribusi Daily Internet Usage, Daily Time Spent, dan Age terhadap Clicked on Ads
 </p>
